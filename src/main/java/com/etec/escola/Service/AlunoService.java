@@ -15,7 +15,7 @@ import java.util.List;
         this.alunoRepository = alunoRepository;
     }
 
-     public List<Aluno> BucasrAlunos(){
+     public List<Aluno> buscarAlunos(){
         return alunoRepository.findAll();
     }
 
